@@ -12,7 +12,7 @@
   <title>Frontend Mentor | Single-page developer portfolio</title>
 </head>
 <body>
-  <header>
+  <header class="header__nav">
     <nav class="nav__header" >
       <div class="container">
         <div class="nav__ilustration">
@@ -28,10 +28,13 @@
     </nav>
     <div>
       <div class="container">
-          <h1 class="info__title">Nice to meet you! I'm <span class="info__title--border">Adam Keyes.</span> </h1>
+        <div class="info__container">
+           <h1 class="info__title">Nice to meet you! I'm <span class="info__title--border">Adam Keyes.</span> </h1>
       <p class="info__text"> Based in the UK, I'm a front-end developer passionate about 
         building accessible web apps that users love.</p>
-        <button>Contact me</button>
+        <button class="btn--black">CONTACT ME</button>
+        </div>
+         
       </div>
     </div>
   </header>
@@ -39,30 +42,34 @@
   <main>
     <section>
       <div class="container">
-        <div>
-  <h2> HTML</h2>
-  <p>4 Years Experience</p>
+        <div class="description__container">
+      <div>
+  <h2 class="description__title"> HTML</h2>
+  <p class="description__text">4 Years Experience</p>
 </div>
 <div>
-  <h2> CSS</h2>
-  <p>4 Years Experience</p>
+  <h2 class="description__title"> CSS</h2>
+  <p class="description__text">4 Years Experience</p>
 </div>
 <div>
-  <h2>JavaScript</h2>
-  <p>4 Years Experience</p>
+  <h2 class="description__title">JavaScript</h2>
+  <p class="description__text">4 Years Experience</p>
 </div>
-<div>
-  <h2> Accessibility</h2>
-  <p>4 Years Experience</p>
+  <div >
+  <h2 class="description__title"> Accessibility</h2>
+  <p class="description__text">4 Years Experience</p>
 </div>
-<div>
-  <h2>  React</h2>
-  <p>3 Years Experience</p>
+  <div >
+  <h2 class="description__title">  React</h2>
+  <p class="description__text">3 Years Experience</p>
 </div>
-<div>
-  <h2>Sass</h2>
-  <p>3 Years Experience</p>
+ 
+  <div >
+  <h2 class="description__title">Sass</h2>
+  <p class="description__text">3 Years Experience</p>
 </div>
+        </div>
+  
       </div>
 
     </section>

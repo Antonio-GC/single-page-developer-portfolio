@@ -45,6 +45,9 @@ body {
     margin: auto;
 }
 
+
+
+
 .nav__header {
     display: flex;
     justify-content: center;
@@ -54,6 +57,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: -20rem;
+    transform: (50%, -50%);
 
 }
 
@@ -71,6 +75,7 @@ body {
     min-height: 35rem;
 }
 
+
 .info__title {
     color: var(--white);
     font-size: 3.5rem;
@@ -84,8 +89,40 @@ body {
 
 .info__text {
     color: var(--white);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 3rem;
     line-height: 2.2rem;
+}
+
+.btn--black {
+    display: block;
+    margin: 0  auto 5rem;
+    color: var(--white);
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    background-color: var(--black-dark);
+    border-bottom: var(--green) solid;
+}
+
+.info__container {
+border-bottom: var(--white) solid .1rem;
+}
+
+.description__container {
+    display: grid;
+}
+
+.description__title {
+    color: var(--white);
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.description__text {
+    color: var(--white);
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem 0;
 }
