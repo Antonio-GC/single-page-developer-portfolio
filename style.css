@@ -139,7 +139,11 @@ margin: 2rem 0;
   margin-bottom: 2rem;
   
 }
-
+.portfolio {
+  display: grid;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
 .box__header {
     display: flex;
     justify-content: space-between;
@@ -171,4 +175,31 @@ margin: 2rem 0;
 .portafolio__text {
   color: var(--Gray);
   font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.footer__container {
+  background-color: var(--Black-light);
+}
+
+.footer__section {
+  padding: 3rem 0;
+  display: grid;
+  gap: 2rem;
+border-bottom: var(--white) solid .1rem;
+}
+
+.footer__title {
+  color: var(--white);
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.footer__text {
+  color: var(--Gray);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.2rem;
+  margin-right: 1rem;
 }
