@@ -1,128 +1,174 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    /* primary color */
+  /* primary color */
 
---black-dark: #151515;
---green: #4EE1A0;
---Black-light : #242424;
---Gray: #d9d9d9;
---white: #FFFFFF;
+  --black-dark: #151515;
+  --green: #4ee1a0;
+  --Black-light: #242424;
+  --Gray: #d9d9d9;
+  --white: #ffffff;
 
-/* value */
---padding-container-mobile: 0 1.6rem;
---font-size: 62.5%;
-
+  /* value */
+  --padding-container-mobile: 0 1.6rem;
+  --font-size: 62.5%;
 }
 
 html {
-    font-size: var(--font-size);
+  font-size: var(--font-size);
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 button {
-    border: none;
+  border: none;
 }
 
-
-
 body {
-    font-family: 'Space Grotesk', sans-serif;
-    background-color: var(--black-dark);
+  font-family: "Space Grotesk", sans-serif;
+  background-color: var(--black-dark);
 }
 
 .container {
-    padding: 0 2rem;
-    max-width: 1200px;
-    margin: auto;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: auto;
 }
 
-
-
-
 .nav__header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-image: url(/assets/images/pattern-rings.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -20rem;
-    transform: (50%, -50%);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-image: url(/assets/images/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -20rem;
+  transform: (50%, -50%);
 }
 
 .nav__title {
-    color: var(--white);
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
+  color: var(--white);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .nav__ilustration {
-    background-image: url(/assets/images/image-profile-mobile.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 35rem;
+  background-image: url(/assets/images/image-profile-mobile.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 35rem;
 }
 
-
 .info__title {
-    color: var(--white);
-    font-size: 3.5rem;
-    text-align: center;
-    margin: 3rem 0;
+  color: var(--white);
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 3rem 0;
 }
 
 .info__title--border {
-    border-bottom: var(--green) solid;
+  border-bottom: var(--green) solid;
 }
 
 .info__text {
-    color: var(--white);
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    line-height: 2.2rem;
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 2.2rem;
 }
 
 .btn--black {
-    display: block;
-    margin: 0  auto 5rem;
-    color: var(--white);
-    font-size: 1.2rem;
-    padding: 1rem 1rem;
-    background-color: var(--black-dark);
-    border-bottom: var(--green) solid;
+  display: block;
+  margin: 0 auto 5rem;
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  background-color: var(--black-dark);
+  border-bottom: var(--green) solid;
 }
 
 .info__container {
-border-bottom: var(--white) solid .1rem;
+  border-bottom: var(--white) solid 0.1rem;
 }
+
+.container__description {
+margin: 2rem 0;
+
+}
+
+.description {
+    background-image: url(/assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20rem 42rem;
+}
+
 
 .description__container {
-    display: grid;
+  display: grid;
+  row-gap: 1rem;
+  border-bottom: var(--white) solid 0.1rem;
+ 
 }
 
+
 .description__title {
-    color: var(--white);
-    font-size: 2rem;
-    text-align: center;
-    margin: 2rem 0;
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: .5rem;
+  
 }
 
 .description__text {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+
+.box__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem 0 2rem;
+}
+
+.portfolio__title {
     color: var(--white);
-    font-size: 1.4rem;
-    text-align: center;
-    margin: 2rem 0;
+    font-size: 3.5rem;
+}
+
+.btn--contact {
+
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    background-color: var(--black-dark);
+    border-bottom: var(--green) solid;
+    margin-right: 2rem;
+}
+
+.portfolio__title--size {
+    color: var(--white);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.portafolio__text {
+  color: var(--Gray);
+  font-size: 1.5rem;
 }
