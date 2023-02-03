@@ -31,6 +31,10 @@ button {
   border: none;
 }
 
+input {
+  border: none;
+}
+
 body {
   font-family: "Space Grotesk", sans-serif;
   background-color: var(--black-dark);
@@ -180,10 +184,11 @@ margin: 2rem 0;
 
 .footer__container {
   background-color: var(--Black-light);
+  
 }
 
 .footer__section {
-  padding: 3rem 0;
+  padding: 3rem 0 10rem;
   display: grid;
   gap: 2rem;
 border-bottom: var(--white) solid .1rem;
@@ -202,4 +207,41 @@ border-bottom: var(--white) solid .1rem;
   text-align: center;
   line-height: 2.2rem;
   margin-right: 1rem;
+}
+
+.footer__cuestion {
+ display: grid;
+ 
+}
+
+.footer__input {
+  background-color: var(--Black-light);
+  border-bottom: var(--white) solid .1rem;
+  padding: 2rem;
+}
+
+.padding--margin {
+  padding-bottom: 10rem;
+  margin-bottom: 2rem;
+}
+
+.btn--footer {
+  color: var(--white);
+  font-size: 1.5
+  4rem;
+  padding: 1rem 0;
+  background-color: var(--Black-light);
+  border-bottom: var(--green) solid;
+  margin-left: 22rem;
+}
+
+.icon__container {
+  padding: 4rem 0;
+}
+
+.icon__footer {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
