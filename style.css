@@ -46,16 +46,30 @@ body {
   margin: auto;
 }
 
+
+.header__nav {
+  background-image: url(/assets/images/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 2rem 4rem;
+  background-position: -20rem 15rem;
+}
+
+.nav__header {
+  background-image: url(/assets/images/pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: 33rem 22rem;
+
+}
+
+
 .nav__image {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-image: url(/assets/images/pattern-rings.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: -20rem;
-  transform: (50%, -50%);
+
+  
 }
 
 .nav__title {
@@ -345,9 +359,19 @@ justify-content: space-between;
   }
 
 .footer__section {
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+max-width: 100%;
+gap: 55rem;
   
+}
+
+.footer__title {
+  text-align: left;
+}
+
+.footer__text {
+  text-align: left;
 }
 
 }
